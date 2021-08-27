@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .conainer{
     margin-top: 100px;
     width: 100%;
@@ -14,14 +17,34 @@
     margin-top: 20%;
     margin-left: 40%;
 }
-h2{
+.aboutimg{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+}
+.aboutimg img{
+    width: 80%;
+}
+.aboutinfo{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.aboutinfo h2{
+    font-family: "Rubik",sans-serif;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 15px;
     line-height: 50px;
-    text-transform: uppercase;
+    text-transform: uppercase;}
+.aboutinfo p{color: rgb(119, 119, 119)}
+.aboutinfo button{
+    padding: 15px 25px;
+    border :none;
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%) , radial-gradient(circle at top left,#4458dc,#854fee);
 }
-.itm{
-    float:left;
-    width: 50%;
+
+.about{
+    height: 500px;
 }
