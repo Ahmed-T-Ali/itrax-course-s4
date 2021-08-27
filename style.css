@@ -1,0 +1,27 @@
+.conainer{
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+}
+.item{
+    background-color: #f9f9fd;
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+}
+.img{
+    margin-top: 20%;
+    margin-left: 40%;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.itm{
+    float:left;
+    width: 50%;
+}
